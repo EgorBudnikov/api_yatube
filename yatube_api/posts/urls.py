@@ -1,4 +1,4 @@
-from django.urls import include, path # noqa: F401
+from django.urls import include, path  # noqa
 from rest_framework.routers import DefaultRouter
 
 from .views import CommentAPIView, CommentListCreate, GroupViewSet, PostViewSet
