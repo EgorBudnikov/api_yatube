@@ -1,8 +1,9 @@
-from django.urls import include, path  # noqa
+from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 
 from .views import CommentAPIView, CommentListCreate, GroupViewSet, PostViewSet
 
+_ = path()
 router = DefaultRouter()
 router.register(r'posts', PostViewSet)
 router.register(r'groups', GroupViewSet)
