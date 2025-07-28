@@ -1,4 +1,3 @@
-
 from django.urls import re_path, include
 from rest_framework.routers import DefaultRouter
 
